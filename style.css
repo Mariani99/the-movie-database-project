@@ -1,0 +1,91 @@
+/*
+ *
+ *  RESET
+ *
+ *
+*/
+@media(min-width: 375px) and (max-width: 425px){
+    .row>*{
+        width: 50% !important;
+    }
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+/*
+ *
+ *  HOME
+ *
+ *
+*/
+.card-movie{
+    min-height: 233px !important;
+}
+
+/*
+ *
+ *  MOVIE
+ *
+ *
+*/
+.bg{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-mask{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+}
+
+.movie-wrap,
+.actor-wrap{
+    position: relative;
+} 
+
+h1 > .badge{
+    margin-left: 10px;
+}
+
+.rounded-pill{
+    margin-right: 5px !important;
+}
+
+.youtube-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-top: 20px;
+}
+  
+.youtube-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    padding: 0;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.card-title{
+    font-size: 17px;
+}
+
+.card-body{
+    min-height: 118px;
+}
